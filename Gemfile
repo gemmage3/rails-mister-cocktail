@@ -24,10 +24,6 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
-
-gem 'autoprefixer-rails'
-gem 'font-awesome-sass', '~> 5.6.1'
-gem 'simple_form'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
@@ -38,6 +34,19 @@ gem 'simple_form'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
+gem 'autoprefixer-rails'
+
+gem 'font-awesome-sass', '~> 5.6.1'
+
+gem 'simple_form'
+
+# cloudinary
+gem 'cloudinary', '~> 1.12.0'
+gem 'dotenv-rails', groups: [:development, :test]
+
+# => faker
+gem 'faker'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
@@ -55,7 +64,6 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
-
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
