@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.6.5'
 
 gem 'bootsnap', require: false
-gem 'pg', '~> 0.21'
+gem 'pg'
 gem 'redis'
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.6.1'
