@@ -15,6 +15,7 @@ gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
 gem 'turbolinks_render'
+gem 'turbolinks', require: false
 
 group :development do
   gem 'web-console', '>= 3.3.0'
