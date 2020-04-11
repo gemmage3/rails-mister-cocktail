@@ -7,12 +7,12 @@ gem 'pg', '~> 0.21'
 gem 'puma', ">= 4.3.3"
 gem 'rails'
 gem 'redis'
+gem 'bootstrap','~>4.3.1'
 
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.6.1'
-gem 'sassc-rails'
+gem 'sass-rails'
 gem 'simple_form'
-gem 'uglifier'
 gem 'webpacker'
 gem 'turbolinks_render'
 gem 'turbolinks', require: false
